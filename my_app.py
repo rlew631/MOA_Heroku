@@ -126,9 +126,9 @@ if page == "Exploratory Data Analysis":
 
 if page == "Model Results":
     st.markdown(page_bg_img, unsafe_allow_html=True)
-    graph1 = open('figures/Plotly_hbarchart_2020-10-27.txt', 'r', encoding='utf-8')
+    graph1 = open('figures/Plotly_hbarchart_2020-10-27.html', 'r', encoding='utf-8')
     source_code1= graph1.read()
-    graph2 = open('figures/Plotly_all_logloss_2020-10-27.txt', 'r', encoding='utf-8')
+    graph2 = open('figures/Plotly_all_logloss_2020-10-27.html', 'r', encoding='utf-8')
     source_code2= graph2.read()
     components.html(source_code1, height = 600, width = 800)
     components.html(source_code2, height = 600, width = 800)
