@@ -27,7 +27,7 @@ st.sidebar.markdown(
 page_bg_img = '''
 <style>
 body {
-background-image: url("https://raw.githubusercontent.com/rlew631/Drug-Methods-of-Action/main/Streamlit_BG.png");
+background-image: url("https://raw.githubusercontent.com/rlew631/MOA_Heroku/main/figures/Streamlit_BG.png");
 background-size: cover;
 }
 table {
